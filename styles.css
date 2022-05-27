@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Gluten:wght@600&family=Lobster&family=Oswald:wght@400;500&family=PT+Serif:ital,wght@0,700;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Spartan:wght@200;300;400;500;600;700;800;900&family=Ubuntu:ital@1&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Gluten:wght@600&family=Lobster&family=Lora:wght@400;500;600;700&family=Oswald:wght@400;500&family=PT+Serif:ital,wght@0,700;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Spartan:wght@200;300;400;500;600;700;800;900&family=Ubuntu:ital@1&family=Varela+Round&display=swap');
+body {
+    font-family: 'Spartan';
+}
+
+
+/* Navbar */
+
+.navbar_h {
+    background-color: rgb(95 37 159);
+}
+
+.navbar_h .collapse .navbar-nav .nav-item .nav-link {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 565px) {}
+
+
+/* Hero sewction */
+
+.hero {
+    background-color: rgb(95 37 159);
+    /* height: 100vh; */
+}
+
+.hero .hero_play h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+.hero .hero_play p {
+    color: rgb(255 255 255 / 70%);
+    font-size: 24px;
+}
+
+.hero .hero_input {
+    height: 60px;
+    text-align: center;
+    width: 50%;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+}
+
+.hero .hero_i_btn {
+    /* background-color: #00c57d; */
+    background-image: linear-gradient(180deg, #01c981, #009c4d);
+    padding: 15px;
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+}
+
+.hero .hero_get {
+    color: rgb(249 201 33);
+    font-size: 14px;
+}
+
+.hero .hero_small {
+    font-size: 12px;
+    color: rgb(255 255 255 / 70%);
+    font-weight: 600;
+}
+
+.hero .hero_small p {
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+
+.hero .hero_small .hero-s_i i {
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.hero .hero_small .rating p {
+    font-size: 12px;
+}
+
+.hero .hero_hr {
+    width: 1px;
+    height: 80%;
+    background-color: rgb(255 255 255 / 54%);
+}
+
+
+/* *********************************************************************************************************** */
+
+.withdraw p {
+    font-size: 14px;
+}
+
+
+/* *********************************************************************************************************** */
+
+.fantasy h1 {
+    font-size: 32px;
+    color: rgb(17, 24, 53);
+    font-weight: 700;
+}
+
+.fantasy .fantasy_card {
+    border-radius: 15px;
+}
+
+.fantasy .fantasy_img {
+    margin-left: 145px;
+}
+
+
+/* *********************************************************************************************************** */
+
+.game .game_btn button {
+    height: 56px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: center;
+    background-color: #009a4b;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: 700;
+    border: none;
+}
+
+
+/* *********************************************************************************************************** */
+
+.best_gaming .game_btn button {
+    height: 56px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: center;
+    background-color: #009a4b;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: 700;
+    border: none;
+}
+
+.best_gaming h1 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+
+/* *********************************************************************************************************** */
+
+.earn_more h1 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.earn_more .rafer {
+    background-color: #fceeff;
+}
+
+.earn_more .btn {
+    background-color: #5f259f;
+}
+
+.earn_more .Influencer {
+    background-color: #fff9c9;
+}
+
+.earn_more .Influencer .btn {
+    background-color: #f9c921;
+}
+
+
+/* *********************************************************************************************************** */
+
+.watch_tv h1 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.watch_tv p {
+    font-size: 18px;
+}
+
+
+/* *********************************************************************************************************** */
+
+.caror h1 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.caror p {
+    font-size: 18px;
+}
+
+.caror .caror_card {
+    height: 322px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    border: none;
+}
+
+.caror .caror_card p {
+    font-size: 15px;
+}
+
+
+/* *********************************************************************************************************** */
+
+.win .win_card {
+    border-radius: 136px;
+    padding: 12px 104px;
+}
+
+.win .hero_input {
+    height: 60px;
+    text-align: center;
+    width: 30%;
+    font-size: 15px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.win .hero_i_btn {
+    /* background-color: #00c57d; */
+    background-image: linear-gradient(180deg, #01c981, #009c4d);
+    padding: 15px;
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+}
